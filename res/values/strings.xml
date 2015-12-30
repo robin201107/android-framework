@@ -14,5 +14,8 @@
     <string name="drop_down_list_footer_loading_text">Loading&#8230;</string>
     <string name="drop_down_list_footer_no_more_text">No More</string>
     <string name="image_content">Image</string>
+    
+    <!-- com.wangjie.androidbucket -->
+    <string name="tag_fragment_tab_click_only">TAG_FRAGMENT_TAB_CLICK_ONLY</string>
 
 </resources>
