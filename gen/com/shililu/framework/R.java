@@ -8,7 +8,179 @@
 package com.shililu.framework;
 
 public final class R {
+    public static final class anim {
+        public static final int fade_in=0x7f040000;
+        public static final int push_down_in=0x7f040001;
+        public static final int push_down_out=0x7f040002;
+        public static final int push_up_in=0x7f040003;
+        public static final int push_up_out=0x7f040004;
+        public static final int slide_bottom_in=0x7f040005;
+        public static final int slide_left_in=0x7f040006;
+        public static final int slide_left_out=0x7f040007;
+        public static final int slide_right_in=0x7f040008;
+        public static final int slide_right_out=0x7f040009;
+        public static final int slide_top_out=0x7f04000a;
+    }
     public static final class attr {
+        /**  Background color for CardView. 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardBackgroundColor=0x7f010003;
+        /**  Corner radius for CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardCornerRadius=0x7f010004;
+        /**  Elevation for CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardElevation=0x7f010005;
+        /**  Maximum Elevation for CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardMaxElevation=0x7f010006;
+        /**  Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardPreventCornerOverlap=0x7f010008;
+        /**  Add padding in API v21+ as well to have the same measurements with previous versions. 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardUseCompatPadding=0x7f010007;
+        /**  Inner padding between the edges of the Card and children of the CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPadding=0x7f010009;
+        /**  Inner padding between the bottom edge of the Card and children of the CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingBottom=0x7f01000d;
+        /**  Inner padding between the left edge of the Card and children of the CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingLeft=0x7f01000a;
+        /**  Inner padding between the right edge of the Card and children of the CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingRight=0x7f01000b;
+        /**  Inner padding between the top edge of the Card and children of the CardView. 
+         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingTop=0x7f01000c;
+        /**  0 ~ 1 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterAlphaVector=0x7f010014;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterBlueVector=0x7f010013;
+        /**  -300 ~ 300 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterBrightnessVector=0x7f010015;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterGreenVector=0x7f010012;
+        /**  -5 ~ 5 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int filterRedVector=0x7f010011;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -36,7 +208,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptr_content=0x7f010004;
+        public static final int ptr_content=0x7f010017;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -44,7 +216,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_duration_to_close=0x7f010007;
+        public static final int ptr_duration_to_close=0x7f01001a;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -52,12 +224,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_duration_to_close_header=0x7f010008;
+        public static final int ptr_duration_to_close_header=0x7f01001b;
         /**  Optional. If you put header and content in xml, you can you these to specify them. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptr_header=0x7f010003;
+        public static final int ptr_header=0x7f010016;
         /**  keep header when refreshing
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -66,7 +238,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_keep_header_when_refresh=0x7f01000a;
+        public static final int ptr_keep_header_when_refresh=0x7f01001d;
         /**  pull to refresh, otherwise release to refresh, default is release to refresh 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -75,7 +247,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_pull_to_fresh=0x7f010009;
+        public static final int ptr_pull_to_fresh=0x7f01001c;
         /**  the ration of the height of the header to trigger refresh 
          <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
@@ -84,7 +256,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_ratio_of_header_height_to_refresh=0x7f010006;
+        public static final int ptr_ratio_of_header_height_to_refresh=0x7f010019;
         /**  the resistance when you are moving the frame 
          <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
@@ -93,7 +265,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_resistance=0x7f010005;
+        public static final int ptr_resistance=0x7f010018;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -101,18 +273,63 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_rotate_ani_time=0x7f01000b;
+        public static final int ptr_rotate_ani_time=0x7f01001e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowEndColor=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowSize=0x7f010010;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowStartColor=0x7f01000e;
     }
     public static final class color {
+        /**  com.wangjie.androidbucket 
+         */
+        public static final int ab__gray_light=0x7f050003;
+        /**  Background color for dark CardView. 
+         */
+        public static final int cardview_dark_background=0x7f050005;
+        /**  CardView 
+ Background color for light CardView. 
+         */
+        public static final int cardview_light_background=0x7f050004;
+        /** <color name="cardview_shadow_start_color">#22000000</color>
+ Shadow color for the furthest pixels around CardView. 
+         */
+        public static final int cardview_shadow_end_color=0x7f050007;
+        /**  Shadow color for the first pixels around CardView. 
+         */
+        public static final int cardview_shadow_start_color=0x7f050006;
         /**  drop down list footer font color 
          */
-        public static final int drop_down_list_footer_font_color=0x7f040002;
+        public static final int drop_down_list_footer_font_color=0x7f050002;
         /**  drop down list header font color 
          */
-        public static final int drop_down_list_header_font_color=0x7f040000;
+        public static final int drop_down_list_header_font_color=0x7f050000;
         /**  drop down list header second font color 
          */
-        public static final int drop_down_list_header_second_font_color=0x7f040001;
+        public static final int drop_down_list_header_second_font_color=0x7f050001;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -121,71 +338,115 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
-        public static final int drop_down_list_footer_button_height=0x7f060008;
-        public static final int drop_down_list_footer_button_margin_left=0x7f060007;
-        public static final int drop_down_list_footer_progress_bar_height=0x7f060006;
-        public static final int drop_down_list_header_padding_bottom=0x7f060003;
+        public static final int activity_horizontal_margin=0x7f070000;
+        public static final int activity_vertical_margin=0x7f070001;
+        /**  Inset shadow for RoundRectDrawableWithShadow. It is used to avoid gaps between the card
+     and the shadow. 
+         */
+        public static final int cardview_compat_inset_shadow=0x7f07000c;
+        /**  Elevation value to use for CardViews. Pre-L, it is equal to shadow size. 
+         */
+        public static final int cardview_default_elevation=0x7f07000b;
+        /**  Default radius for CardView corners. 
+         */
+        public static final int cardview_default_radius=0x7f07000a;
+        /**  com.wangjie.androidbucket 
+ CardView 
+         */
+        public static final int cardview_shadow_size=0x7f070009;
+        public static final int drop_down_list_footer_button_height=0x7f070008;
+        public static final int drop_down_list_footer_button_margin_left=0x7f070007;
+        public static final int drop_down_list_footer_progress_bar_height=0x7f070006;
+        public static final int drop_down_list_header_padding_bottom=0x7f070003;
         /**  com.feng.android 
          */
-        public static final int drop_down_list_header_padding_top=0x7f060002;
-        public static final int drop_down_list_header_progress_bar_height=0x7f060005;
-        public static final int drop_down_list_header_release_min_distance=0x7f060004;
+        public static final int drop_down_list_header_padding_top=0x7f070002;
+        public static final int drop_down_list_header_progress_bar_height=0x7f070005;
+        public static final int drop_down_list_header_release_min_distance=0x7f070004;
     }
     public static final class drawable {
-        public static final int drop_down_list_arrow=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int ptr_rotate_arrow=0x7f020002;
+        public static final int ab__shape_corners_black=0x7f020000;
+        public static final int drop_down_list_arrow=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int ptr_rotate_arrow=0x7f020003;
+        public static final int selector_bg_sheet_corner_all=0x7f020004;
+        public static final int selector_bg_sheet_item=0x7f020005;
+        public static final int shape_corners_gray_corner_all=0x7f020006;
+        public static final int shape_corners_white_corner_all=0x7f020007;
+        public static final int shape_corners_white_corner_top_lr=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000c;
-        public static final int drop_down_list_footer_button=0x7f090006;
-        public static final int drop_down_list_footer_progress_bar=0x7f090005;
-        public static final int drop_down_list_header_default_text=0x7f09000a;
-        public static final int drop_down_list_header_default_text_layout=0x7f090008;
-        public static final int drop_down_list_header_image=0x7f090009;
-        public static final int drop_down_list_header_progress_bar=0x7f090007;
-        public static final int drop_down_list_header_second_text=0x7f09000b;
-        public static final int ptr_classic_header_rotate_view=0x7f090003;
-        public static final int ptr_classic_header_rotate_view_header_last_update=0x7f090002;
-        public static final int ptr_classic_header_rotate_view_header_text=0x7f090000;
-        public static final int ptr_classic_header_rotate_view_header_title=0x7f090001;
-        public static final int ptr_classic_header_rotate_view_progressbar=0x7f090004;
+        public static final int ab__id_adapter_child_position=0x7f080004;
+        /**  adapter getView中设置listener tag的key 
+         */
+        public static final int ab__id_adapter_group_position=0x7f080003;
+        public static final int ab__id_adapter_item_position=0x7f080005;
+        public static final int ab__id_adapter_item_type_render=0x7f080006;
+        public static final int ab_drop_menu_item_title=0x7f080008;
+        public static final int ab_drop_menu_lv=0x7f080007;
+        public static final int ab_horizontial_edit_menu_items_view=0x7f080009;
+        public static final int ab_sheet_cancel_tv=0x7f08000c;
+        public static final int ab_sheet_item_title_tv=0x7f08000d;
+        public static final int ab_sheet_lv=0x7f08000b;
+        public static final int ab_sheet_title_tv=0x7f08000a;
+        public static final int action_settings=0x7f08001a;
+        public static final int drop_down_list_footer_button=0x7f080014;
+        public static final int drop_down_list_footer_progress_bar=0x7f080013;
+        public static final int drop_down_list_header_default_text=0x7f080018;
+        public static final int drop_down_list_header_default_text_layout=0x7f080016;
+        public static final int drop_down_list_header_image=0x7f080017;
+        public static final int drop_down_list_header_progress_bar=0x7f080015;
+        public static final int drop_down_list_header_second_text=0x7f080019;
+        public static final int ids_adapter_on_adapter_click_listener=0x7f080002;
+        public static final int ptr_classic_header_rotate_view=0x7f080011;
+        public static final int ptr_classic_header_rotate_view_header_last_update=0x7f080010;
+        public static final int ptr_classic_header_rotate_view_header_text=0x7f08000e;
+        public static final int ptr_classic_header_rotate_view_header_title=0x7f08000f;
+        public static final int ptr_classic_header_rotate_view_progressbar=0x7f080012;
+        public static final int view_height=0x7f080000;
+        public static final int view_width=0x7f080001;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int cube_ptr_classic_default_header=0x7f030001;
-        public static final int cube_ptr_simple_loading=0x7f030002;
-        public static final int drop_down_list_footer=0x7f030003;
-        public static final int drop_down_list_header=0x7f030004;
+        public static final int ab_drop_menu=0x7f030000;
+        public static final int ab_drop_menu_item=0x7f030001;
+        public static final int ab_horizontial_edit_menu=0x7f030002;
+        public static final int ab_sheet=0x7f030003;
+        public static final int ab_sheet_item=0x7f030004;
+        public static final int activity_main=0x7f030005;
+        public static final int cube_ptr_classic_default_header=0x7f030006;
+        public static final int cube_ptr_simple_loading=0x7f030007;
+        public static final int drop_down_list_footer=0x7f030008;
+        public static final int drop_down_list_header=0x7f030009;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f0a0000;
     }
     public static final class string {
-        public static final int action_settings=0x7f05000a;
-        public static final int app_name=0x7f050009;
-        public static final int cube_ptr_hours_ago=0x7f050008;
-        public static final int cube_ptr_last_update=0x7f050005;
-        public static final int cube_ptr_minutes_ago=0x7f050007;
-        public static final int cube_ptr_pull_down=0x7f050000;
-        public static final int cube_ptr_pull_down_to_refresh=0x7f050001;
-        public static final int cube_ptr_refresh_complete=0x7f050004;
-        public static final int cube_ptr_refreshing=0x7f050003;
-        public static final int cube_ptr_release_to_refresh=0x7f050002;
-        public static final int cube_ptr_seconds_ago=0x7f050006;
-        public static final int drop_down_list_footer_default_text=0x7f050010;
-        public static final int drop_down_list_footer_loading_text=0x7f050011;
-        public static final int drop_down_list_footer_no_more_text=0x7f050012;
+        public static final int action_settings=0x7f06000a;
+        public static final int app_name=0x7f060009;
+        public static final int cube_ptr_hours_ago=0x7f060008;
+        public static final int cube_ptr_last_update=0x7f060005;
+        public static final int cube_ptr_minutes_ago=0x7f060007;
+        public static final int cube_ptr_pull_down=0x7f060000;
+        public static final int cube_ptr_pull_down_to_refresh=0x7f060001;
+        public static final int cube_ptr_refresh_complete=0x7f060004;
+        public static final int cube_ptr_refreshing=0x7f060003;
+        public static final int cube_ptr_release_to_refresh=0x7f060002;
+        public static final int cube_ptr_seconds_ago=0x7f060006;
+        public static final int drop_down_list_footer_default_text=0x7f060010;
+        public static final int drop_down_list_footer_loading_text=0x7f060011;
+        public static final int drop_down_list_footer_no_more_text=0x7f060012;
         /**  com.feng.android 
          */
-        public static final int drop_down_list_header_default_text=0x7f05000c;
-        public static final int drop_down_list_header_loading_text=0x7f05000f;
-        public static final int drop_down_list_header_pull_text=0x7f05000d;
-        public static final int drop_down_list_header_release_text=0x7f05000e;
-        public static final int hello_world=0x7f05000b;
-        public static final int image_content=0x7f050013;
+        public static final int drop_down_list_header_default_text=0x7f06000c;
+        public static final int drop_down_list_header_loading_text=0x7f06000f;
+        public static final int drop_down_list_header_pull_text=0x7f06000d;
+        public static final int drop_down_list_header_release_text=0x7f06000e;
+        public static final int hello_world=0x7f06000b;
+        public static final int image_content=0x7f060013;
+        /**  com.wangjie.androidbucket 
+         */
+        public static final int tag_fragment_tab_click_only=0x7f060014;
     }
     public static final class style {
         /** 
@@ -209,20 +470,416 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f090000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int drop_down_list_footer_font_style=0x7f070006;
-        public static final int drop_down_list_footer_progress_bar_style=0x7f070003;
-        public static final int drop_down_list_header_font_style=0x7f070004;
+        public static final int AppTheme=0x7f090001;
+        /**  CardView 
+         */
+        public static final int CardView=0x7f09000b;
+        public static final int CardView_Dark=0x7f09000d;
+        public static final int CardView_Light=0x7f09000c;
+        /**  进度对话框风格 
+背景是否模糊
+         */
+        public static final int LoadingDialogStyle=0x7f09000a;
+        public static final int animDialogPushDown=0x7f090009;
+        public static final int animDialogPushUp=0x7f090008;
+        /**  com.wangjie.androidbucket 
+ 自定义对话框风格 
+背景是否模糊
+         */
+        public static final int customDialogStyle=0x7f090007;
+        public static final int drop_down_list_footer_font_style=0x7f090006;
+        public static final int drop_down_list_footer_progress_bar_style=0x7f090003;
+        public static final int drop_down_list_header_font_style=0x7f090004;
         /**  com.feng.android 
          */
-        public static final int drop_down_list_header_progress_bar_style=0x7f070002;
-        public static final int drop_down_list_header_second_font_style=0x7f070005;
+        public static final int drop_down_list_header_progress_bar_style=0x7f090002;
+        public static final int drop_down_list_header_second_font_style=0x7f090005;
     }
     public static final class styleable {
+        /**  com.wangjie.androidbucket 
+ CardView support 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.shililu.framework:cardBackgroundColor}</code></td><td> Background color for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.shililu.framework:cardCornerRadius}</code></td><td> Corner radius for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.shililu.framework:cardElevation}</code></td><td> Elevation for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.shililu.framework:cardMaxElevation}</code></td><td> Maximum Elevation for CardView.</td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.shililu.framework:cardPreventCornerOverlap}</code></td><td> Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.shililu.framework:cardUseCompatPadding}</code></td><td> Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.shililu.framework:contentPadding}</code></td><td> Inner padding between the edges of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.shililu.framework:contentPaddingBottom}</code></td><td> Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.shililu.framework:contentPaddingLeft}</code></td><td> Inner padding between the left edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.shililu.framework:contentPaddingRight}</code></td><td> Inner padding between the right edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.shililu.framework:contentPaddingTop}</code></td><td> Inner padding between the top edge of the Card and children of the CardView.</td></tr>
+           <tr><td><code>{@link #CardView_shadowEndColor com.shililu.framework:shadowEndColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_shadowSize com.shililu.framework:shadowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_shadowStartColor com.shililu.framework:shadowStartColor}</code></td><td></td></tr>
+           </table>
+           @see #CardView_cardBackgroundColor
+           @see #CardView_cardCornerRadius
+           @see #CardView_cardElevation
+           @see #CardView_cardMaxElevation
+           @see #CardView_cardPreventCornerOverlap
+           @see #CardView_cardUseCompatPadding
+           @see #CardView_contentPadding
+           @see #CardView_contentPaddingBottom
+           @see #CardView_contentPaddingLeft
+           @see #CardView_contentPaddingRight
+           @see #CardView_contentPaddingTop
+           @see #CardView_shadowEndColor
+           @see #CardView_shadowSize
+           @see #CardView_shadowStartColor
+         */
+        public static final int[] CardView = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
+            0x7f01000f, 0x7f010010
+        };
+        /**
+          <p>
+          @attr description
+           Background color for CardView. 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:cardBackgroundColor
+        */
+        public static final int CardView_cardBackgroundColor = 0;
+        /**
+          <p>
+          @attr description
+           Corner radius for CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:cardCornerRadius
+        */
+        public static final int CardView_cardCornerRadius = 1;
+        /**
+          <p>
+          @attr description
+           Elevation for CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:cardElevation
+        */
+        public static final int CardView_cardElevation = 2;
+        /**
+          <p>
+          @attr description
+           Maximum Elevation for CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:cardMaxElevation
+        */
+        public static final int CardView_cardMaxElevation = 3;
+        /**
+          <p>
+          @attr description
+           Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:cardPreventCornerOverlap
+        */
+        public static final int CardView_cardPreventCornerOverlap = 5;
+        /**
+          <p>
+          @attr description
+           Add padding in API v21+ as well to have the same measurements with previous versions. 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:cardUseCompatPadding
+        */
+        public static final int CardView_cardUseCompatPadding = 4;
+        /**
+          <p>
+          @attr description
+           Inner padding between the edges of the Card and children of the CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:contentPadding
+        */
+        public static final int CardView_contentPadding = 6;
+        /**
+          <p>
+          @attr description
+           Inner padding between the bottom edge of the Card and children of the CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:contentPaddingBottom
+        */
+        public static final int CardView_contentPaddingBottom = 10;
+        /**
+          <p>
+          @attr description
+           Inner padding between the left edge of the Card and children of the CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:contentPaddingLeft
+        */
+        public static final int CardView_contentPaddingLeft = 7;
+        /**
+          <p>
+          @attr description
+           Inner padding between the right edge of the Card and children of the CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:contentPaddingRight
+        */
+        public static final int CardView_contentPaddingRight = 8;
+        /**
+          <p>
+          @attr description
+           Inner padding between the top edge of the Card and children of the CardView. 
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:contentPaddingTop
+        */
+        public static final int CardView_contentPaddingTop = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#shadowEndColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.shililu.framework:shadowEndColor
+        */
+        public static final int CardView_shadowEndColor = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#shadowSize}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.shililu.framework:shadowSize
+        */
+        public static final int CardView_shadowSize = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#shadowStartColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.shililu.framework:shadowStartColor
+        */
+        public static final int CardView_shadowStartColor = 11;
+        /**  ColorFilterImageButton 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterAlphaVector com.shililu.framework:filterAlphaVector}</code></td><td> 0 ~ 1 </td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterBlueVector com.shililu.framework:filterBlueVector}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterBrightnessVector com.shililu.framework:filterBrightnessVector}</code></td><td> -300 ~ 300 </td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterGreenVector com.shililu.framework:filterGreenVector}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorFilterImageButton_filterRedVector com.shililu.framework:filterRedVector}</code></td><td> -5 ~ 5 </td></tr>
+           </table>
+           @see #ColorFilterImageButton_filterAlphaVector
+           @see #ColorFilterImageButton_filterBlueVector
+           @see #ColorFilterImageButton_filterBrightnessVector
+           @see #ColorFilterImageButton_filterGreenVector
+           @see #ColorFilterImageButton_filterRedVector
+         */
+        public static final int[] ColorFilterImageButton = {
+            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
+            0x7f010015
+        };
+        /**
+          <p>
+          @attr description
+           0 ~ 1 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:filterAlphaVector
+        */
+        public static final int ColorFilterImageButton_filterAlphaVector = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#filterBlueVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.shililu.framework:filterBlueVector
+        */
+        public static final int ColorFilterImageButton_filterBlueVector = 2;
+        /**
+          <p>
+          @attr description
+           -300 ~ 300 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:filterBrightnessVector
+        */
+        public static final int ColorFilterImageButton_filterBrightnessVector = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#filterGreenVector}
+          attribute's value can be found in the {@link #ColorFilterImageButton} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.shililu.framework:filterGreenVector
+        */
+        public static final int ColorFilterImageButton_filterGreenVector = 1;
+        /**
+          <p>
+          @attr description
+           -5 ~ 5 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.shililu.framework:filterRedVector
+        */
+        public static final int ColorFilterImageButton_filterRedVector = 0;
         /** Attributes that can be used with a PtrClassicHeader.
            <p>Includes the following attributes:</p>
            <table>
@@ -234,7 +891,7 @@ containing a value of this type.
            @see #PtrClassicHeader_ptr_rotate_ani_time
          */
         public static final int[] PtrClassicHeader = {
-            0x7f01000b
+            0x7f01001e
         };
         /**
           <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#ptr_rotate_ani_time}
@@ -275,8 +932,8 @@ containing a value of this type.
            @see #PtrFrameLayout_ptr_resistance
          */
         public static final int[] PtrFrameLayout = {
-            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
-            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d
         };
         /**
           <p>This symbol is the offset where the {@link com.shililu.framework.R.attr#ptr_content}
