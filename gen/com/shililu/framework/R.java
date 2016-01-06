@@ -369,11 +369,12 @@ containing a value of this type.
         public static final int drop_down_list_arrow=0x7f020001;
         public static final int ic_launcher=0x7f020002;
         public static final int ptr_rotate_arrow=0x7f020003;
-        public static final int selector_bg_sheet_corner_all=0x7f020004;
-        public static final int selector_bg_sheet_item=0x7f020005;
-        public static final int shape_corners_gray_corner_all=0x7f020006;
-        public static final int shape_corners_white_corner_all=0x7f020007;
-        public static final int shape_corners_white_corner_top_lr=0x7f020008;
+        public static final int readme=0x7f020004;
+        public static final int selector_bg_sheet_corner_all=0x7f020005;
+        public static final int selector_bg_sheet_item=0x7f020006;
+        public static final int shape_corners_gray_corner_all=0x7f020007;
+        public static final int shape_corners_white_corner_all=0x7f020008;
+        public static final int shape_corners_white_corner_top_lr=0x7f020009;
     }
     public static final class id {
         public static final int ab__id_adapter_child_position=0x7f080004;
